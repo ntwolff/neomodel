@@ -18,6 +18,11 @@ build:
 sphinx:
   configuration: doc/source/conf.py
 
+# Optionally build your docs in additional formats such as PDF and ePub
+formats:
+   - pdf
+   - epub
+
 # The requirements.txt file specified in this section lists all packages 
 # required to build the documentation (here for example, including 
 # sphinx_copybutton which is a docs related requirement only)
