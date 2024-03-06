@@ -106,6 +106,11 @@ pygments_style = "sphinx"
 # If true, keep warnings as "system message" paragraphs in the built documents.
 # keep_warnings = False
 
+# Build PDF & ePub
+formats:
+  - epub
+  - pdf
+
 
 # -- Options for HTML output ----------------------------------------------
 
